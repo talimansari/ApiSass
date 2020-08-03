@@ -1,0 +1,20 @@
+install node.js
+open cmd (command prompt)
+in cmd wrote c:/user/10> F:
+F:\>mkdir sasscustom  (create folder)
+F:\> cd sasscustom
+F:\> sasscustom>npm init
+
+
+after install------
+
+create folder in sublime editor
+ 
+css ,sass and index.html
+ 
+css/style.css , sass/main.scss
+
+in package.json
+"script" !{
+  "compile:sass" : "node-sass sass/main.scss css/style.css"
+},
